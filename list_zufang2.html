@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <title>家电</title>
+    <meta name="keywords" content="家电"/>
+    <meta name="description" content="家电"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/base.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/listui.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/common.css"/>
+    <script src="https://apps.bdimg.com/libs/jquery/1.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <style type="text/css">
+        #pageHtml {
+            font-size: 20px;
+        }
+
+        #pageHtml .current {
+            border: 1px solid #e1e1e1;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            width: 35px;
+            background-color: #06c1ae;
+            color: #fff;
+            margin: 0 1px;
+            padding: 0 0 0 1px;
+        }
+
+        #pageHtml a {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        #pageHtml .pga {
+            border: 1px solid #e1e1e1;
+            width: 35px;
+        }
+
+        .bt .btwrap {
+            width: 1200px;
+            margin: 100px auto 30px;
+            text-align: center;
+        }
+
+        .bt .btwrap p {
+            color: #606060;
+            line-height: 20px;
+            font-size: 12px;
+        }
+
+        .newslist {
+            border: none !important;
+        }
+    </style>
+</head>
+<body>
+<div id="site-mast" class="site-mast">
+    <div class="site-mast__user-nav-w">
+        <div class="site-mast__user-nav cf">
+            <ul class="basic-info">
+                <li class="user-info cf"><a rel="nofollow" class="user-info__login" href="login.html">登录</a>
+                    <a rel="nofollow" class="user-info__signup" href="zhuce.html">注册</a></li>
+                <li class="user-info cf">
+                </li>
+            </ul>
+            <ul class="site-mast__user-w">
+                <li class="user-orders"><a href="zhifu.html" rel="nofollow">免费发布信息</a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li class="dropdown dropdown--account"><a id="J-my-account-toggle" rel="nofollow"
+                                                          class="dropdown__toggle" href="login.html"> <span>个人中心</span>
+                </a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li id="J-site-merchant" class="dropdown dropdown--merchant"><a
+                        class="dropdown__toggle dropdown__toggle--merchant" href="#"> <span>网站首页</span> </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="homeWrap" class="wrapper">
+    <div id="header" class="mainpage">
+        <div id="headerinside">
+            <span id="logo"> <a href="#" target="_blank"><img src="logo.png" height="40"/></a> </span>
+            <form action="javascript:;" method="get" name="mysearch">
+                <div id="searchbar">
+                    <div id="saerkey">
+                        <span><input type="text" id="keyword" name="keystr" class="keyword" value="请填写关键词进行搜索"
+                                     onblur="if(this.value=='')this.value='请填写关键词进行搜索',this.className='keyword'"
+                                     onfocus="if(this.value=='请填写关键词进行搜索')this.value='',this.className='keyword2'"/></span>
+                    </div>
+                    <div class="inputcon">
+                        <input type="submit" class="btnall" value="搜一搜" onmousemove="this.className='btnal2'"
+                               onmouseout="this.className='btnall'"/>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="search-no">
+                        <span id="hot"></span>
+                        <span class="hot2"></span>
+                    </div>
+                </div>
+            </form>
+            <a href="zhifu.html" id="fabu" rel="nofollow"><i></i>免费发布信息</a>
+        </div>
+    </div>
+    <div class="hShadow"></div>
+    <div class="navcon" id="nav">
+        <ul class="nav2">
+            <li><a href="index.html">首页</a></li>
+            <li class="on"><a href="weixiu.html">维修服务</a></li>
+            <li><a href="bianmin.html">便民服务</a></li>
+            <li><a href="zhaopin.html">招聘信息</a></li>
+            <li><a href="zufang.html">租房买房</a></li>
+            <li><a href="chongwu.html">宠物</a></li>
+            <li><a href="ershou.html">二手交易</a></li>
+            <!--<li><a href="wanshi.html">万事屋</a></li>-->
+        </ul>
+        <div id="1003" class="ad_nav"></div>
+    </div>
+</div>
+<div id="brand_list_top_banner"></div>
+<div class="tabsbar mainpage">
+    <div class="list-tabs">
+        <a title="家电" class="sel" href="javascript:;"><span><h1>家电</h1></span></a>
+    </div>
+</div>
+<!-- =S mainlist -->
+<div id="mainlist" class="clearfix pr mainpage">
+    <div class="wid1200 clearfix">
+        <div class="tab-cont clearfix">
+            <div class="title">宝华海尚郡领 4房2厅2卫 163.45平+车位，房源真实，看房方便</div>
+            <p class="gray9 fybh-zf">
+                <span class="mr10">房源编号 317825806</span>
+                <span>更新时间 2018-03-12</span>
+            </p>
+            <div class="tab-cont-left">
+                <div class="see-img" id="imgSlide1">
+
+                    <div class="big-img">
+                        <a id="agantzfxq_C02_05">
+                            <div class="bigImg">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3d1e9d718d644eb6a3f28aa0a5010b6f/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/5cc67522e31e4122816f1e41c72aca0a/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/acccfc6abd25423c8f9ceec1e0d2a975/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/af65b067dc104050837f8ec182ea25af/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/9f3678aed1804f408007acb4e0139159/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/305ca41245a84d9c9cc81232a0145cb4/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/08c3c97357534932b91d4b7e182855cf/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/4649c0c693114c9fa578733dba6d05aa/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/619a480312e64c68bcedb40d2d079d17/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3eecaa9399a9430391965aada7eb5b61/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/3/2018_3/12/M10/4/06de8f1e9a164ee184fb912e6ff5158b.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/ca4af46945244521b73442f6eac79f97/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/b2a5b9707b2e4496b15ff5574875d8c6/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4dadcb09db3649399ef19827ce41b9b6/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/c26ffd60187542ee823ab34761150abd/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/16c9bda5e73246e0ab3952236a3ade66/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/dc5ce0466803444c93e38e1adceb7043/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/adb49a1ad0a5454bb242a9797026216f/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4d5a2172b1c94848913be3b4c16d1e21/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                                <img alt="房源图片" style="height: 440px;"
+                                     src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/6fea301ba80b46a7b4f9218c601a8486/690x440c.jpg"
+                                     width="690px" height="440px">
+
+                            </div>
+                            <!--<div class="img-num"><span>厅</span><i class="curNum">1</i>/<i class="totalNum">12</i></div>-->
+                            <div class="lbbtn1-l bl">
+                                <img src="http://esf.js.soufunimg.com/esf/zu/img/detail/lbtn1.png">
+                            </div>
+                            <div class="lbbtn1-r br">
+                                <img src="http://esf.js.soufunimg.com/esf/zu/img/detail//rbtn1.png"
+                                     style="display: none;">
+                            </div>
+                        </a>
+                    </div>
+                    <a id="agantzfxq_C02_06">
+                        <div class="little-img">
+                            <ul class="litImg" style="width: 2700px;">
+
+                                <li class="cur">
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3d1e9d718d644eb6a3f28aa0a5010b6f/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/5cc67522e31e4122816f1e41c72aca0a/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/acccfc6abd25423c8f9ceec1e0d2a975/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/af65b067dc104050837f8ec182ea25af/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/9f3678aed1804f408007acb4e0139159/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/305ca41245a84d9c9cc81232a0145cb4/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/08c3c97357534932b91d4b7e182855cf/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/4649c0c693114c9fa578733dba6d05aa/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/619a480312e64c68bcedb40d2d079d17/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3eecaa9399a9430391965aada7eb5b61/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/3/2018_3/12/M10/4/06de8f1e9a164ee184fb912e6ff5158b/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/ca4af46945244521b73442f6eac79f97/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/b2a5b9707b2e4496b15ff5574875d8c6/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4dadcb09db3649399ef19827ce41b9b6/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/c26ffd60187542ee823ab34761150abd/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/16c9bda5e73246e0ab3952236a3ade66/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/dc5ce0466803444c93e38e1adceb7043/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/adb49a1ad0a5454bb242a9797026216f/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4d5a2172b1c94848913be3b4c16d1e21/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                                <li>
+                                    <img src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/6fea301ba80b46a7b4f9218c601a8486/120x78c.jpg"
+                                         width="120px" height="78px">
+
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="lbbtn-l bl"></div>
+                        <div class="lbbtn-r br"></div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="tab-cont-right">
+                <!--分享-->
+                <div class="fx-sc-jb">
+                    <div id="fshare" class="item1 ewmBtn" style="position: relative;">
+                        <img src="http://esf.js.soufunimg.com/esf/zu/img/detail/fs.png">
+                        <span>分享</span>
+
+                    </div>
+                    <div class="item1 shocang" id="agantzfxq_C02_14">
+                        <div class="anibox">
+                            <img class="ani1" src="http://esf.js.soufunimg.com/esf/zu/img/detail/sc.png">
+                            <img class="ani2" src="http://esf.js.soufunimg.com/esf/zu/img/detail/sc_h.png">
+                        </div>
+                        <span>收藏</span>
+                    </div>
+                    <div class="item1 jbaoBtn" id="agantzfxq_C02_15">
+                        <img src="http://esf.js.soufunimg.com/esf/zu/img/detail/jb.png">
+                        <span>举报</span>
+                    </div>
+                </div>
+                <!--分享 end-->
+                <div class="tr-line clearfix zf_new_title" style="padding-bottom: 12px;">
+
+                    <div class="trl-item sty1"><i>18000</i>元/月（押一付三）</div>
+
+                </div>
+                <div class="tr-line clearfix">
+                    <div class="trl-item1 w146">
+                        <div class="tt">整租</div>
+                        <div class="font14">出租方式</div>
+                    </div>
+                    <div class="trl-item1 w182">
+                        <div class="tt">4室2厅2卫</div>
+                        <div class="font14">户型</div>
+                    </div>
+                    <div class="trl-item1 w132" style="border-right: 0;">
+
+                        <div class="tt">164平米</div>
+
+
+                        <div class="font14">建筑面积</div>
+                    </div>
+                </div>
+                <div class="tr-line clearfix">
+                    <div class="trl-item1 w146">
+                        <div class="tt">南北</div>
+                        <div class="font14">朝向</div>
+                    </div>
+                    <div class="trl-item1 w182">
+                        <div class="tt">中层</div>
+                        <div class="font14">楼层（共27层）</div>
+                    </div>
+                    <div class="trl-item1 w132" style="border-right: 0;">
+                        <div class="tt">精装修</div>
+                        <div class="font14">装修</div>
+                    </div>
+                </div>
+                <div class="tr-line" style="padding: 22px 0">
+                    <div class="trl-item2 clearfix">
+                        <div class="lab">小&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区</div>
+                        <div class="rcont">
+
+                            <a id="agantzfxq_C02_07" href="/house-xm1211078504/" style="margin-right: 0;"
+                               class="link-under">宝华海尚郡领</a>
+                            (<a id="agantzfxq_C02_08" href="/house-a025/" class="link-under" target="_blank">浦东</a>/<a
+                                id="agantzfxq_C02_09" href="/house-a025-b01646/" class="link-under"
+                                target="_blank">北蔡</a>)
+
+                            <!--<span>（距离7号线广渠门内站573米）</span>-->
+                        </div>
+                    </div>
+
+                    <div class="trl-item2 clearfix">
+                        <div class="lab">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址</div>
+                        <div class="rcont"><a>成山路2388号</a></div>
+                    </div>
+                </div>
+
+                <div class="tr-line clearfix" style="border-bottom: 0; padding-bottom: 0; padding-top: 24px;">
+                    <div class="trlcont rel">
+                        <div class="tjcont-list clearfix">
+                            <div class="tjcont-list-img">
+                                <a id="agantzfxq_C03_06" href="http://esf.sh.fang.com/a/w15021016034">
+                                    <img src="http://img1.soufunimg.com/usercenter/2017_10/14/17/avatar/120_165792378_6.jpg">
+                                </a>
+                            </div>
+                            <div class="tjcont-list-c ">
+                                <div class="tjcont-list-cline1 ">
+                                    <span class="zf_jjname"><a
+                                            href="http://esf.sh.fang.com/a/w15021016034">王剑</a></span>
+                                    <a href="javascript:;" class="starClick mr0">
+                                        <span class="starGray" style="margin-right: 6px">
+                                            <span class="starOrg" style="width: 54.00%;"></span>
+                                        </span>
+                                        <!--星级弹出层 -->
+
+                                        <div class="star_tan">
+                                            <div class="font12 gray9 zs-jjren">打败了同城83%的经纪人</div>
+                                            <ol>
+                                                <li class="font12">
+                                                    <p class="">25</p>
+                                                    <p class="gray6">从业经验</p>
+                                                </li>
+                                                <li class="font12">
+                                                    <p class="dayu60">100</p>
+                                                    <p class="gray6">服务质量</p>
+                                                </li>
+                                                <li class="font12" style="border-right: none">
+                                                    <p class="">60</p>
+                                                    <p class="gray6">客户评价</p>
+                                                </li>
+                                            </ol>
+                                        </div>
+
+                                    </a>
+
+                                    <a href="javascript:;" class="rel sd_hf2">
+                                        <!--绿图标弹出层 -->
+                                        <div class="reply_tan reply_tac">
+                                            <p class="font12 gray6">在线咨询回复率高且速度快</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="javascript:;" class="sd_hf1_wu mr0 rel">
+                                        <!--橙图标弹出层 -->
+                                        <div class="reply_tan zheng_zf">
+                                            <p class="font12 gray6">通过网络经纪人专业资格认证考试</p>
+                                        </div>
+                                    </a>
+
+                                    <a id="im_165792378" href="javascript:void(0);">
+                                        <img alt="" name="165792378online" style="cursor:pointer;"
+                                             src="http://esf.js.soufunimg.com/esf/zu/img/detail/zf_new_chat.png">
+                                    </a>
+
+                                </div>
+                                <div class="tjcont-list-cline2">
+                                    <span class="gray9 " style="margin-right: 15px">经纪公司</span><span>链家地产</span>
+                                </div>
+
+                                <div class="tjcont-list-cline3 font16">15021016034</div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- tab-cont end -->
+        <div class="w1200 clearfix">
+            <div class="zf_new_left floatl">
+
+                <div class="content-item fydes-item">
+                    <div class="title">房源描述</div>
+                    <div class="cont yc">
+                        <div class="clearfix bt1 tem_hxmd">
+                            <div class="mscont">
+                                <ul class="fyms_modify">
+
+                                    <li class="font14 fyld">
+                                        <div class="fyms_title floatl gray9">房源亮点</div>
+                                        <div class="fyms_con floatl gray3">【房源简介】<br>1周边交通便利：周边公交：：7号线锦绣路站、13号线下南路站<br>公交：161路（成山路博华路站）、徐川线、607路、730路、792路、970路、771路博华路成山路站、北蔡一路（锦绣路北艾路站）、639路等。<br>2专业打造一个适合的小区，绿化高，社区环境好。<br>3周围商店：巴黎春天、乐购、华联超/市餐饮：美国山姆商/店、浦东新区图书馆、汽车4S店、Holiday四星/级酒店、丽君酒店、紫叶菜场、天池菜场、上航旅游、药店等<br>周边银行：中国工商银行、中国建设银行、中国农业银行、邮政储蓄银行、浦发银行。<br>A宝华海尚郡领的经典户型，舒适，利用率超高！<br>B业主豪华装修，家私家电全齐！<br>C租价合理，超值，业主诚意出租，看房随时！
+                                        </div>
+                                    </li>
+
+                                    <li class="font14 jtcx">
+                                        <div class="fyms_title floatl gray9">交通出行</div>
+                                        <div class="fyms_con floatl gray3">地铁：7号线锦绣路站、13号线下南路站（在建中）；<br>公交：161路（成山路博华路站）、徐川线、607路、730路、792路、970路、771路博华路成山路站、北蔡一路（锦绣路北艾路站）、639路等。暂无资料
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content-item end -->
+
+                <div class="content-item zf_new_ptss">
+                    <div class="title">配套设施</div>
+                    <div class="cont clearfix">
+                        <ul>
+
+                            <li class="chuang">床</li>
+
+                            <li class="kuandai">宽带</li>
+
+                            <li class="dianshi">电视</li>
+
+                            <li class="bingxiang">冰箱</li>
+
+                            <li class="xiyiji">洗衣机</li>
+
+                            <li class="kongtiao">空调</li>
+
+                            <li class="reshuiqi">热水器</li>
+
+                            <li class="nuanqi">暖气</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- content-item end -->
+
+                <div class="content-item">
+                    <div class="title">房源图片</div>
+                    <div class="cont-sty1 clearfix">
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3d1e9d718d644eb6a3f28aa0a5010b6f/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/5cc67522e31e4122816f1e41c72aca0a/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/acccfc6abd25423c8f9ceec1e0d2a975/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/af65b067dc104050837f8ec182ea25af/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/9f3678aed1804f408007acb4e0139159/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/305ca41245a84d9c9cc81232a0145cb4/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/08c3c97357534932b91d4b7e182855cf/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/4649c0c693114c9fa578733dba6d05aa/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/619a480312e64c68bcedb40d2d079d17/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/1/2018_3/12/M10/4/3eecaa9399a9430391965aada7eb5b61/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/3/2018_3/12/M10/4/06de8f1e9a164ee184fb912e6ff5158b.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/ca4af46945244521b73442f6eac79f97/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/b2a5b9707b2e4496b15ff5574875d8c6/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4dadcb09db3649399ef19827ce41b9b6/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/c26ffd60187542ee823ab34761150abd/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/16c9bda5e73246e0ab3952236a3ade66/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/dc5ce0466803444c93e38e1adceb7043/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/adb49a1ad0a5454bb242a9797026216f/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/4d5a2172b1c94848913be3b4c16d1e21/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                        <div class="item">
+                            <img alt="房源图片"
+                                 src="http://cdnsfb.soufunimg.com/viewimage/2/2018_3/12/M10/4/6fea301ba80b46a7b4f9218c601a8486/450x338c.jpg"
+                                 style="width:450px;height:338px;">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- content-item end -->
+            </div>
+            <div class="zf_new_right floatr">
+                <!--同小区房源-->
+                <!--同价位房源-->
+                <div class="content-item same-xq-fy _ajaxhouse" style="">
+                    <div class="title font16 bd_none"><a id="agantzfxq_C08_05" href="/house-xm1211078504/"
+                                                         target="blank">同小区在租房源</a></div>
+                    <div class="cont clearfix" id="agantzfxq_C08_06">
+                        <div class="img-out2-fy"><a href="/chuzu/3_317192059_1.htm" target="_blank"> <img
+                                src="http://img11.soufunimg.com/agents/2018_03/02/M1B/1A/E5/ChCE4FqY8ASIFlvOAAHDs_Q77vcAA_oZgPBYNIAAcPL488.jpg">
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>2室2厅</span>
+                                    <div class="br-text"><i>9600</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-out2-fy"><a href="/chuzu/3_310131732_1.htm" target="_blank"> <img
+                                src="http://cdnsfb.soufunimg.com/1/2017_11/26/M10/16/85c5df2815e54688b830d3e511adc47d.jpg">
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>2室2厅</span>
+                                    <div class="br-text"><i>9000</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-out2-fy"><a href="/chuzu/3_318295017_1.htm" target="_blank"> <img
+                                src="http://cdnsfb.soufunimg.com/1/2018_3/19/M9/8/981dc96d9d7245b290bdd462d05a082a.jpg">
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>3室2厅</span>
+                                    <div class="br-text"><i>11000</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-item same-jg-fy _ajaxhouse" style="">
+                    <div class="title font16 bd_none"><a id="agantzfxq_C08_07" href="/house/c216200-d219800-l310/"
+                                                         target="blank">周边同价位房源</a></div>
+                    <div class="cont clearfix" id="agantzfxq_C08_08">
+                        <div class="img-out2-fy"><a href="/chuzu/3_317986808_1.htm" target="_blank"> <img
+                                src="http://cdnsfb.soufunimg.com/1/2018_3/14/M15/52/7376093e177a46ddb61c25f8787c1152.jpg">
+                            <div class="io-text1">浦东&emsp;陆家嘴锦绣前城</div>
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>4室2厅</span>
+                                    <div class="br-text"><i>17000</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-out2-fy"><a href="/chuzu/3_318030883_1.htm" target="_blank"> <img
+                                src="http://cdnsfb.soufunimg.com/1/2018_2/25/M10/44/e1c4b4d8b33340f09cc75e0c01bb3e50.jpg">
+                            <div class="io-text1">浦东&emsp;花木绿城锦绣兰庭</div>
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>4室2厅</span>
+                                    <div class="br-text"><i>19000</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-out2-fy"><a href="/chuzu/3_318122914_1.htm" target="_blank"> <img
+                                src="http://cdnsfb.soufunimg.com/1/2018_3/16/M11/25/57cf129eaacb4076b52f15247af1e76a.jpg">
+                            <div class="io-text1">浦东&emsp;花木绿城锦绣兰庭</div>
+                        </a>
+                            <div class="img-out2-text">
+                                <div class="io-text2"><span>整租</span> <span>4室2厅</span>
+                                    <div class="br-text"><i>19000</i>元/月</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content-item end -->
+
+        <div class="content-item mdMap">
+            <div class="title">周边配套</div>
+            <div class="cont clearfix" style="margin-top: 10px">
+                <div class="tabc">
+
+
+                    <div class="map-wrap" style="position: relative;" id="mapid11">
+                        <iframe src="http://ditu.fang.com/?c=channel&amp;a=xiaoquNew&amp;newcode=1211078504&amp;city=sh&amp;sign=pt&amp;width=1200&amp;height=450&amp;esf=1"
+                                scrolling="no" frameborder="0" width="1200px" height="459px"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- content-item end -->
+
+        <div class="content-item zfmb41">
+            <div class="title rel">
+                小区环境
+
+                <div class="xqhj_more">
+
+                    <a href="http://haishangjunlingbh.fang.com/photo/list_901_1211078504.htm" rel="nofollow"
+                       class="mr15" target="_blank" id="agantzfxq_C06_01">交通图(4)</a>
+
+                    <a href="http://haishangjunlingbh.fang.com/photo/list_907_1211078504.htm" rel="nofollow"
+                       class="mr15" target="_blank" id="agantzfxq_C06_06">配套图(19)</a>
+
+                    <a href="http://haishangjunlingbh.fang.com/photo/1211078504.htm" rel="nofollow"
+                       title="查看宝华海尚郡领 全部图片" target="_blank" id="agantzfxq_C06_03">更多&gt;</a>
+                </div>
+
+            </div>
+
+            <div class="clearfix" style="margin-left: -15px; padding-top: 20px" id="agantzfxq_C06_04">
+
+                <div class="img-out1-hj">
+                    <a href="http://haishangjunlingbh.fang.com//photo/d_other_139656320.htm" target="_blank">
+                        <div class="img-out1-tu">
+                            <img src="http://img3.soufunimg.com/viewimage/agents/2014_01/07/M01/0C/9E/wKgFqFLL9EGIfT8uAAHSQjywt74AATt4wBPtIgAAdJa042/226x170.jpg"
+                                 style="width: 226px; height: 170px;" alt="">
+                        </div>
+                        <div class="io-text1-fy">宝华海尚郡领外景图</div>
+                    </a>
+                </div>
+
+                <div class="img-out1-hj">
+                    <a href="http://haishangjunlingbh.fang.com//photo/d_other_139656318.htm" target="_blank">
+                        <div class="img-out1-tu">
+                            <img src="http://img3.soufunimg.com/viewimage/agents/2014_01/07/M04/0C/9E/wKgFqVLL8_qIYH8mAAJkRWtcUdYAATt4QNebX0AAmRd534/226x170.jpg"
+                                 style="width: 226px; height: 170px;" alt="">
+                        </div>
+                        <div class="io-text1-fy">宝华海尚郡领外景图</div>
+                    </a>
+                </div>
+
+                <div class="img-out1-hj">
+                    <a href="http://haishangjunlingbh.fang.com//photo/d_other_139656317.htm" target="_blank">
+                        <div class="img-out1-tu">
+                            <img src="http://img3.soufunimg.com/viewimage/agents/2014_01/07/M09/0C/9E/wKgFr1LL8_mICcJLAAI_976ggToAATt3APrhVgAAkAP462/226x170.jpg"
+                                 style="width: 226px; height: 170px;" alt="">
+                        </div>
+                        <div class="io-text1-fy">宝华海尚郡领外景图</div>
+                    </a>
+                </div>
+
+                <div class="img-out1-hj">
+                    <a href="http://haishangjunlingbh.fang.com//photo/d_other_139656315.htm" target="_blank">
+                        <div class="img-out1-tu">
+                            <img src="http://img3.soufunimg.com/viewimage/agents/2014_01/07/M06/0C/9E/wKgFqVLL8_eITLcmAAKor01bAQgAATt4gM7GAQAAqjH643/226x170.jpg"
+                                 style="width: 226px; height: 170px;" alt="">
+                        </div>
+                        <div class="io-text1-fy">宝华海尚郡领外景图</div>
+                    </a>
+                </div>
+
+                <div class="img-out1-hj">
+                    <a href="http://haishangjunlingbh.fang.com//photo/d_other_139656314.htm" target="_blank">
+                        <div class="img-out1-tu">
+                            <img src="http://img3.soufunimg.com/viewimage/agents/2014_01/07/M01/0C/9E/wKgFr1LL8_aIVMELAAJ8YpsBeFoAATt3QO8mX8AAnx6178/226x170.jpg"
+                                 style="width: 226px; height: 170px;" alt="">
+                        </div>
+                        <div class="io-text1-fy">宝华海尚郡领外景图</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="title">王剑的评价</div>
+            <div class="cont" style="margin-top: 15px">
+                <div class="pj-sec clearfix rel">
+                    <div class="pj-sec-c">
+                        <span>好评率</span>
+                        <span class="sty2">100%</span>
+                    </div>
+                    <div class="pj-sec-c">
+                        <span>真实度</span>
+                        <span class="sty2">5.0</span>
+                    </div>
+                    <div class="pj-sec-c">
+                        <span>满意度</span>
+                        <span class="sty2">5.0</span>
+                    </div>
+                    <div class="pj-sec-c">
+                        <span>专业度</span>
+                        <span class="sty2">5.0</span>
+                    </div>
+                    <div class="tit-right">
+                        <span><a target="_blank" id="agantzfxq_C07_01" href="http://esf.sh.fang.com/a/w15021016034"
+                                 style="text-decoration: none;color: #999">查看网友评价&gt;</a></span>
+                    </div>
+                </div>
+                <div class="pj-sec clearfix" style="margin-bottom: 0;">
+                    <div class="left">
+                        <img class="tximg"
+                             src="http://img1.soufunimg.com/usercenter/2017_10/14/17/avatar/120_165792378_6.jpg">
+                        <div class="text">王剑</div>
+                    </div>
+                    <div class="right">
+                        <div class="pj-sec-rline clearfix">
+                            <span>请您对他的服务进行点评</span>
+                            <span class="bqian1 clickRate" data-value="3">好评</span>
+                            <span class="bqian1 clickRate" data-value="2">中评</span>
+                            <span class="bqian1 clickRate" data-value="1">差评</span>
+                        </div>
+                        <div class="pj-sec-rline clearfix">
+                            <div class="pjx">
+                                <span>房屋信息真实度</span>
+                                <div>
+                                    <span class="xing" data-value="1"></span>
+                                    <span class="xing" data-value="2"></span>
+                                    <span class="xing" data-value="3"></span>
+                                    <span class="xing" data-value="4"></span>
+                                    <span class="xing" data-value="5"></span>
+                                </div>
+                            </div>
+                            <div class="pjx">
+                                <span>服务态度满意度</span>
+                                <div>
+                                    <span class="xing" data-value="1"></span>
+                                    <span class="xing" data-value="2"></span>
+                                    <span class="xing" data-value="3"></span>
+                                    <span class="xing" data-value="4"></span>
+                                    <span class="xing" data-value="5"></span>
+                                </div>
+                            </div>
+                            <div class="pjx">
+                                <span>业务水平专业度</span>
+                                <div>
+                                    <span class="xing" data-value="1"></span>
+                                    <span class="xing" data-value="2"></span>
+                                    <span class="xing" data-value="3"></span>
+                                    <span class="xing" data-value="4"></span>
+                                    <span class="xing" data-value="5"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pj-sec-rline" style="margin-bottom: 25px">
+                            <div class="tera3">
+                                <span class="ts" style="display: block;">说说经纪人在服务过程中的表现？您的评价将提升他们的服务质量！最多输入300字</span>
+                                <textarea id="description_PJ" class="terac" rows="1" cols="1"></textarea>
+                            </div>
+                        </div>
+                        <div class="pj-sec-rline" style="margin-bottom: 6px">
+                            <div id="submit-review" class="btn5 downBtn">提交评论</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-item zfmb41">
+            <div class="title">周边短租日租房源</div>
+            <div class="cont clearfix" style="margin-top: 0; margin-left: -15px">
+
+                <div class="img-out2">
+                    <a href="http://www.youtx.com/room/305272" target="_blank">
+                        <img src="http://img.youtx.com/viewimage/duanzu/2017_05/22/11/64/98/houseinfo/402488582900/170x128c.jpg"
+                             style="height: 228; width: 172;"></a>
+                    <div class="img-out2-text">
+                        <div class="io-text1">
+                            <a href="http://www.youtx.com/room/305272" target="_blank">7地铁 第一妇幼保健院...</a>
+                        </div>
+                        <div class="io-text2">
+                            <span><i>2450</i>元/周</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-out2">
+                    <a href="http://www.youtx.com/room/301513" target="_blank">
+                        <img src="http://3g.img.youtx.com/viewimage/duanzu/2017_03/30/05/97/74/houseinfo/402151227700/170x128c.jpg"
+                             style="height: 228; width: 172;"></a>
+                    <div class="img-out2-text">
+                        <div class="io-text1">
+                            <a href="http://www.youtx.com/room/301513" target="_blank">紧邻迪士尼站 展会 开...</a>
+                        </div>
+                        <div class="io-text2">
+                            <span><i>1176</i>元/周</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-out2">
+                    <a href="http://www.youtx.com/room/291579" target="_blank">
+                        <img src="http://3g.img.youtx.com/viewimage/duanzu/2016_10/01/20/16/20/houseinfo/402631413800/170x128c.jpg"
+                             style="height: 228; width: 172;"></a>
+                    <div class="img-out2-text">
+                        <div class="io-text1">
+                            <a href="http://www.youtx.com/room/291579" target="_blank">迪士尼 新国展 温馨三...</a>
+                        </div>
+                        <div class="io-text2">
+                            <span><i>4172</i>元/周</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-out2">
+                    <a href="http://www.youtx.com/room/301376" target="_blank">
+                        <img src="http://img.youtx.com/viewimage/duanzu/2017_03/28/15/88/54/houseinfo/408702098200/170x128c.jpg"
+                             style="height: 228; width: 172;"></a>
+                    <div class="img-out2-text">
+                        <div class="io-text1">
+                            <a href="http://www.youtx.com/room/301376" target="_blank">7号线地铁 第一妇幼保...</a>
+                        </div>
+                        <div class="io-text2">
+                            <span><i>2198</i>元/周</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-out2">
+                    <a href="http://www.youtx.com/room/278151" target="_blank">
+                        <img src="http://img.youtx.com/viewimage/duanzu/2016_03/05/00/4/30/houseinfo/400730925800/170x128c.jpg"
+                             style="height: 228; width: 172;"></a>
+                    <div class="img-out2-text">
+                        <div class="io-text1">
+                            <a href="http://www.youtx.com/room/278151" target="_blank">迪士尼|新博展地铁零距...</a>
+                        </div>
+                        <div class="io-text2">
+                            <span><i>3731</i>元/周</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-item" style="margin-bottom: 28px;" id="agantzfxq_C09_01">
+            <div class="title font16">宝华海尚郡领周边租房-公交地铁周边房源，交通便利</div>
+            <div class="cont-small clearfix">
+
+                <a target="_blank" href="/bus/49685/" class="fdlink">陈春路博华路租房</a>
+
+                <a target="_blank" href="/bus/49686/" class="fdlink">陈春路沪南路租房</a>
+
+                <a target="_blank" href="/bus/50151/" class="fdlink">莲园路沪南路租房</a>
+
+                <a target="_blank" href="/bus/50152/" class="fdlink">莲园路博华路租房</a>
+
+                <a target="_blank" href="/bus/50153/" class="fdlink">莲园路锦绣路租房</a>
+
+                <a target="_blank" href="/bus/52085/" class="fdlink">北蔡租房</a>
+
+                <a target="_blank" href="/bus/54589/" class="fdlink">成山路博华路租房</a>
+
+                <a target="_blank" href="/bus/54590/" class="fdlink">博华路成山路租房</a>
+
+                <a target="_blank" href="/bus/54591/" class="fdlink">博华路高科西路租房</a>
+
+                <a target="_blank" href="/bus/54665/" class="fdlink">沪南路陈春路(招呼站)租房</a>
+
+                <a target="_blank" href="/bus/57586/" class="fdlink">莲安西路沪南路租房</a>
+
+                <a target="_blank" href="/bus/62087/" class="fdlink">陈春路九新路租房</a>
+
+                <a target="_blank" href="/bus/62277/" class="fdlink">沪南路陈春路租房</a>
+
+                <a target="_blank" href="/bus/162458/" class="fdlink">莲园路博华路(招呼站)租房</a>
+
+                <a target="_blank" href="/bus/162459/" class="fdlink">莲园路沪南路(招呼站)租房</a>
+
+                <a target="_blank" href="/bus/162461/" class="fdlink">北蔡家俱广场(招呼站)租房</a>
+
+                <a target="_blank" href="/bus/164856/" class="fdlink">沪南路高科西路(北蔡)租房</a>
+
+                <a target="_blank" href="/bus/164857/" class="fdlink">沪南路北中路(莲溪)租房</a>
+
+                <a target="_blank" href="/bus/164858/" class="fdlink">沪南路陈春路(陈家桥)租房</a>
+
+                <a target="_blank" href="/bus/169870/" class="fdlink">高科西路博华路租房</a>
+
+            </div>
+        </div>
+
+
+        <div class="near_estate" style="margin-bottom: 48px;">
+            <div class="bigtit0307 clearfix">
+                <div class="s1" id="tab_phb_1">
+                    <a href="javascript:void(0)" onmouseover="tabswitch('1','tab_phb_','content_phb_')">宝华海尚郡领租房相关 </a>
+                </div>
+                <div class="s2" id="tab_phb_2">
+                    <a href="javascript:void(0)" onmouseover="tabswitch('2','tab_phb_','content_phb_')">上海热门小区租房</a>
+                </div>
+            </div>
+            <!--附近楼盘-->
+            <div class="nhbox content_phb_1" id="agantzfxq_C09_02" style="display: block;">
+                <ul class="hotlptj fjlp">
+
+                    <li><a href="http://www.fang.com/houses/zf_383765sh/" target="_blank">华泾房屋出租信息</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383716sh/" target="_blank">淮海中路合租房</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383622sh/" target="_blank">真光单间出租</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_382058sh/" target="_blank">奉贤合租</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383811sh/" target="_blank">奉城个人房屋出租</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383044sh/" target="_blank">安亭出租房屋</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383100sh/" target="_blank">中福花苑青年汇租房</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383726sh/" target="_blank">静安租房单间</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_383809sh/" target="_blank">嘉兴房屋出租信息</a></li>
+
+                    <li><a href="http://www.fang.com/houses/zf_382750sh/" target="_blank">张江高科房子出租</a></li>
+
+                    <li><a href="/zufang/2018031901/" target="_blank">租房新增房源</a></li>
+
+                </ul>
+            </div>
+            <!--热门楼盘-->
+            <div class="nhbox content_phb_2" style="display: none;">
+                <ul class="hotlptj fjlp">
+
+                    <li><a href="/house-xm1210718382/" target="_blank">崮山小区</a></li>
+
+                    <li><a href="/house-xm1210730818/" target="_blank">滨江凯旋门</a></li>
+
+                    <li><a href="/house-xm1823144824/" target="_blank">世茂蝶湖湾</a></li>
+
+                    <li><a href="/house-xm1210517702/" target="_blank">绿城黄浦湾</a></li>
+
+                    <li><a href="/house-xm1823185498/" target="_blank">鑫苑鑫都汇</a></li>
+
+                    <li><a href="/house-xm1211193814/" target="_blank">复兴珑御</a></li>
+
+                    <li><a href="/house-xm1210008781/" target="_blank">益丰新村</a></li>
+
+                    <li><a href="/house-xm1211097642/" target="_blank">东茗苑</a></li>
+
+                    <li><a href="/house-xm1821389146/" target="_blank">万科金域缇香</a></li>
+
+                    <li><a href="/house-xm1210602826/" target="_blank">浦江东旭公寓</a></li>
+
+                    <li><a href="/house-xm1210010018/" target="_blank">锦秋花园</a></li>
+
+                    <li><a href="/house-xm1211173124/" target="_blank">晶欣坊</a></li>
+
+                    <li><a href="/house-xm1210763538/" target="_blank">宜浩佳园</a></li>
+
+                    <li><a href="/house-xm1210109840/" target="_blank">天安豪园</a></li>
+
+                    <li><a href="/house-xm1211096610/" target="_blank">绿地海域笙晖</a></li>
+
+                    <li><a href="/house-xm1210221942/" target="_blank">绿庭尚城</a></li>
+
+                    <li><a href="/house-xm1210673780/" target="_blank">香梅花园一期</a></li>
+
+                    <li><a href="/house-xm1210012000/" target="_blank">世茂滨江花园</a></li>
+
+                </ul>
+            </div>
+            <script>
+                function tabswitch(num, tab, content) {
+                    $("div[id^='" + tab + "']").each(function (index, element) {
+                        if ($(element).hasClass('s1')) {
+                            $(element).removeClass('s1');
+                            $(element).addClass('s2');
+                        }
+                    });
+                    $("div[class^='bnhbox " + content + "']").each(function (index, element) {
+                        $(element).hide();
+                    });
+                    $("div[class^='nhbox " + content + "']").each(function (index, element) {
+                        $(element).hide();
+                    });
+                    $('.' + content + num).show();
+                    $('#' + tab + num).removeClass('s2');
+                    $('#' + tab + num).addClass('s1');
+                }
+            </script>
+
+        </div>
+
+        <div class="content-item" id="agantzfxq_C09_03">
+            <div class="title font16">宝华海尚郡领附近，北蔡商圈其他小区推荐</div>
+            <div class="cont-small clearfix">
+
+                <a target="_blank" href="/house-xm1211196020/" class="fdlink">安远路294弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1211196048/" class="fdlink">龙泉小区租房</a>
+
+                <a target="_blank" href="/house-xm1211202156/" class="fdlink">沪南路1139号租房</a>
+
+                <a target="_blank" href="/house-xm1211213186/" class="fdlink">沪南路1196弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1211221196/" class="fdlink">莲园路378弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1211226150/" class="fdlink">北蔡大街671弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1210001867/" class="fdlink">锦三角花园租房</a>
+
+                <a target="_blank" href="/house-xm1210001910/" class="fdlink">绿川新苑租房</a>
+
+                <a target="_blank" href="/house-xm1210008740/" class="fdlink">东莲大厦租房</a>
+
+                <a target="_blank" href="/house-xm1210010910/" class="fdlink">华佳花园租房</a>
+
+                <a target="_blank" href="/house-xm1210011687/" class="fdlink">锦华花园租房</a>
+
+                <a target="_blank" href="/house-xm1210021013/" class="fdlink">南新苑租房</a>
+
+                <a target="_blank" href="/house-xm1210023173/" class="fdlink">宏莲馨苑租房</a>
+
+                <a target="_blank" href="/house-xm1210024803/" class="fdlink">环龙公寓租房</a>
+
+                <a target="_blank" href="/house-xm1210029895/" class="fdlink">景泰嘉苑租房</a>
+
+                <a target="_blank" href="/house-xm1210097424/" class="fdlink">莲怡苑租房</a>
+
+                <a target="_blank" href="/house-xm1210281870/" class="fdlink">南新六村租房</a>
+
+                <a target="_blank" href="/house-xm1210285186/" class="fdlink">北中路280弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1210285188/" class="fdlink">莲安东路79弄小区租房</a>
+
+                <a target="_blank" href="/house-xm1210306228/" class="fdlink">莲溪新村租房</a>
+
+            </div>
+        </div>
+
+        <!-- content-item end -->
+        <div class="content-item" id="agantzfxq_C09_04">
+            <div class="mianze">
+                <strong>免责声明：</strong>
+                房源信息由网站用户提供，其真实性、合法性由信息提供者负责，最终以政府部门登记备案为准。本网站内容凡涉及面积单位均为建筑面积，本网站不声明或保证内容之正确性和可靠性，租赁该房屋时，
+                请谨慎核查。
+            </div>
+        </div>
+    </div>
+</div>
+﻿
+<!--bt-->
+<div class="bt">
+    <div class="btwrap">
+        <p>Copyright@2016-2018 cwifi88 Corporation.All Rights Reserved.</p>
+        <p>武汉涵思涵科技有限公司 鄂ICP备16016213号</p>
+    </div>
+</div>
+<div class="clear"></div>
+<script src="http://zsnh.wfsf.cn/tpl/Static/default/classify/banner.js"></script>
+<script type="text/javascript">
+    var optJsonData = {};
+    var RequestUrl = 'http://zsnh.wfsf.cn/classify/list-253.html';
+    var optStr = window.location.search;
+    optJsonData = {
+        "input2": ["b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeaYrw==", "b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeWQpg=="],
+        "input1": ["b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWGsOeusQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Peepuuiwg+e7tOS\/ri\/np7vmnLo=", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeDreawtOWZqA==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeUteinhg==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Pea0l+iho+acug==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWOqOaIvw==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeW9semfs+WutueUtQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWwj+WutueUtQ=="]
+    };
+
+    function ProcessInquiryStr(typ, optv) {
+        var pi_Str = '';
+        if (optStr.indexOf('opt=') > -1) {
+            var tmp = optStr.split('opt=');
+            var opt_str = $.trim(tmp[1]);
+            opt_str = opt_str.replace(/&page=\d+/, '');
+            var optArr = opt_str ? opt_str.split('-') : new Array();
+            var tmpstr = '';
+            var flage = false;
+            for (i = 0; i < optArr.length; i++) {
+                $.each(optJsonData, function (kk, vv) {
+                    tmpstr = 'ff|' + vv.join('|') + '|ff';
+                    if (tmpstr.indexOf(optArr[i]) > 0) {
+                        if (kk == typ) {
+                            if (optv) {
+                                optArr[i] = optv;
+                            } else {
+                                optArr.splice(i, 1);
+                            }
+                            flage = true;
+                        }
+                    }
+
+                });
+            }
+            if (!flage && optv) {
+                optArr.push(optv);
+            }
+            if (optArr.length > 1) {
+                pi_Str = optArr.join('-');
+            } else if (optArr.length == 1) {
+                pi_Str = optArr[0];
+            } else {
+                pi_Str = '';
+            }
+        } else {
+            pi_Str = optv;
+        }
+        if (pi_Str) {
+            window.location.href = RequestUrl + '?opt=' + pi_Str;
+        } else {
+            window.location.href = RequestUrl;
+        }
+
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#keyword1").keydown(function () {
+            $("#keyword1").attr("style", "color: rgb(0, 0, 0);"); //黑色
+        });
+        $("#keyword1").click(function () {
+            if ($.trim($(this).val()) == "输入类别或关键字") {
+                $(this).val("");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+        $("#keyword1").blur(function () {
+            if ($.trim($(this).val()) == "") {
+                $(this).val("输入类别或关键字");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+    });
+
+    function ToSearchWord(ty) {
+        var keyword = $.trim($("#keyword1").val());
+        if (keyword == "" || keyword == "输入类别或关键字") {
+            $("#keyword1").val("输入类别或关键字");
+            $("#keyword1").attr("style", "color: rgb(153, 153, 153);"); //灰色
+            return false;
+        } else {
+            if (ty == 1) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist-253-0.html?keystr=" + keyword;
+            } else if (ty == 2) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist.html?keystr=" + keyword;
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>
