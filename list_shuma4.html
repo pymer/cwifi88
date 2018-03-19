@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <title>家电</title>
+    <meta name="keywords" content="家电"/>
+    <meta name="description" content="家电"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/base.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/listui.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/common.css"/>
+    <script src="https://apps.bdimg.com/libs/jquery/1.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <style type="text/css">
+        #pageHtml {
+            font-size: 20px;
+        }
+
+        #pageHtml .current {
+            border: 1px solid #e1e1e1;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            width: 35px;
+            background-color: #06c1ae;
+            color: #fff;
+            margin: 0 1px;
+            padding: 0 0 0 1px;
+        }
+
+        #pageHtml a {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        #pageHtml .pga {
+            border: 1px solid #e1e1e1;
+            width: 35px;
+        }
+
+        .bt .btwrap {
+            width: 1200px;
+            margin: 100px auto 30px;
+            text-align: center;
+        }
+
+        .bt .btwrap p {
+            color: #606060;
+            line-height: 20px;
+            font-size: 12px;
+        }
+
+        .newslist {
+            border: none !important;
+        }
+    </style>
+</head>
+<body>
+<div id="site-mast" class="site-mast">
+    <div class="site-mast__user-nav-w">
+        <div class="site-mast__user-nav cf">
+            <ul class="basic-info">
+                <li class="user-info cf"><a rel="nofollow" class="user-info__login" href="login.html">登录</a>
+                    <a rel="nofollow" class="user-info__signup" href="zhuce.html">注册</a></li>
+                <li class="user-info cf">
+                </li>
+            </ul>
+            <ul class="site-mast__user-w">
+                <li class="user-orders"><a href="zhifu.html" rel="nofollow">免费发布信息</a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li class="dropdown dropdown--account"><a id="J-my-account-toggle" rel="nofollow"
+                                                          class="dropdown__toggle" href="login.html"> <span>个人中心</span>
+                </a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li id="J-site-merchant" class="dropdown dropdown--merchant"><a
+                        class="dropdown__toggle dropdown__toggle--merchant" href="#"> <span>网站首页</span> </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="homeWrap" class="wrapper">
+    <div id="header" class="mainpage">
+        <div id="headerinside">
+            <span id="logo"> <a href="#" target="_blank"><img src="logo.png" height="40"/></a> </span>
+            <form action="javascript:;" method="get" name="mysearch">
+                <div id="searchbar">
+                    <div id="saerkey">
+                        <span><input type="text" id="keyword" name="keystr" class="keyword" value="请填写关键词进行搜索"
+                                     onblur="if(this.value=='')this.value='请填写关键词进行搜索',this.className='keyword'"
+                                     onfocus="if(this.value=='请填写关键词进行搜索')this.value='',this.className='keyword2'"/></span>
+                    </div>
+                    <div class="inputcon">
+                        <input type="submit" class="btnall" value="搜一搜" onmousemove="this.className='btnal2'"
+                               onmouseout="this.className='btnall'"/>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="search-no">
+                        <span id="hot"></span>
+                        <span class="hot2"></span>
+                    </div>
+                </div>
+            </form>
+            <a href="zhifu.html" id="fabu" rel="nofollow"><i></i>免费发布信息</a>
+        </div>
+    </div>
+    <div class="hShadow"></div>
+    <div class="navcon" id="nav">
+        <ul class="nav2">
+            <li><a href="index.html">首页</a></li>
+            <li class="on"><a href="weixiu.html">维修服务</a></li>
+            <li><a href="bianmin.html">便民服务</a></li>
+            <li><a href="zhaopin.html">招聘信息</a></li>
+            <li><a href="zufang.html">租房买房</a></li>
+            <li><a href="chongwu.html">宠物</a></li>
+            <li><a href="ershou.html">二手交易</a></li>
+            <!--<li><a href="wanshi.html">万事屋</a></li>-->
+        </ul>
+        <div id="1003" class="ad_nav"></div>
+    </div>
+</div>
+<div id="brand_list_top_banner"></div>
+<div class="tabsbar mainpage">
+    <div class="list-tabs">
+        <a title="家电" class="sel" href="javascript:;"><span><h1>家电</h1></span></a>
+    </div>
+</div>
+<!-- =S mainlist -->
+<div id="mainlist" class="clearfix pr mainpage">
+    <!-- =S infolist 左侧列表主体 -->
+    <div class="LEFT">
+        <h1>痛定思痛之后 LG的智能手机业务还有救吗？</h1>
+        <div class="content clearfix">
+            <div id="LeftTool" class="LeftTool">
+                <div data-reactroot="" class="left-stick-wp" style="top: 0px;">
+                    <div class="year through"><span>2018</span></div>
+                    <div class="md"><!-- react-text: 5 -->03<!-- /react-text --><!-- react-text: 6 -->/
+                        <!-- /react-text --><!-- react-text: 7 -->02<!-- /react-text --></div>
+                    <div class="time"><!-- react-text: 9 -->08<!-- /react-text --><!-- react-text: 10 -->:
+                        <!-- /react-text --><!-- react-text: 11 -->23<!-- /react-text --></div>
+                    <div data-bossirs="ly"><a class="author" href="//new.qq.com/omn/author/5620887" target="_blank"
+                                              data-bosszone="author_name">
+                        <div>TechnoAnts</div>
+                        <span class="qiehao">企鹅号</span></a></div>
+                    <div class="share-title through" data-bossirs="share"><span>分享</span></div>
+                    <div class="share" data-bosszone="share"><a class="wxWrap"><i class="iconfont icon-icon-"></i>
+                        <div class="qrcode hidden">
+                            <div id="qrcode" title="http://new.qq.com/omn/20180302/20180302A07EWJ.html">
+                                <canvas width="113" height="113" style="display: none;"></canvas>
+                                <img alt="Scan me!"
+                                     src="data:image/png;base64,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"
+                                     style="display: block;"></div><!-- react-text: 23 -->用微信扫描二维码<!-- /react-text -->
+                        </div>
+                    </a><a><i class="iconfont icon-qq1"></i></a><a><i class="iconfont icon-qqkongjian"></i></a><a><i
+                            class="iconfont icon-weibo1"></i></a></div>
+                    <div class="comment-count-title through"><span>评论</span></div>
+                    <a target="_blank" id="cmtLink" class="comment-count" data-bosszone="pls" data-bossirs="pls"
+                       href="http://coral.qq.com/2460405185"><span></span><span></span><span></span>
+                        <div class="text"><i id="cmtNum">24</i></div>
+                    </a></div>
+            </div>
+            <!--内容-->
+            <div class="content-article">
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2956040566/0" class="content-picture"></p>
+                <p class="one-p">
+                    　　智能手机市场的竞争激烈程度是大家所有目共睹的，在这些年里，我们已经见过不少厂商因为经营策略的问题而翻了车，比如诺基亚和HTC。而现在，LG的市场地位也已经岌岌可危了。</p>
+                <p class="one-p">　　由于智能手机业务在这几年里的持续严重亏损，这家韩国厂商现在似乎终于意识到问题的严重性，打算在今年改变自己的经营策略。至于此举收效如何，这还有待观察。</p>
+                <p class="one-p">　　LG的移动业务策略究竟出了什么问题？他们的未来命运又会如何？这是我们今天将要讨论的问题。</p>
+                <p class="one-p">　　<strong>移动业务严重亏损</strong></p>
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2123090873/0" class="content-picture"></p>
+                <p class="one-p">
+                    　　在1月份公布的2017年财报当中，LG智能手机业务的销售总额为105.2亿美元，产品总出货量为1390万部。除1季度之外，这家公司在其余3个季度皆出现亏损，亏损总额达到6.41亿美元。</p>
+                <p class="one-p">
+                    　　LG移动在去年的销售额和2016年相比只出现了略微下滑，这似乎表明这家公司已经遏止住了移动业务的严重亏损的势头。要知道，LG在2016年的总销售额相比2015年下降幅度高达10.8%。</p>
+                <p class="one-p">
+                    　　在2017年四季度，LG移动部门的销售额为27.7亿美元，亏损1.92亿美元。虽然仍然在亏钱，但该季度的销售额实际上比三季度（亏损3.31亿美元）上升了9%，相比去年同期的亏损也减少了40%，这可能是得益于LG
+                    V30和Pixel 2 XL两款产品的问世。</p>
+                <p class="one-p">　　在过去的2年时间里，LG移动只在去年一季度因为G6的发布而实现了盈利，但利润也不过才320万美元而已。而再上一次实现盈利可是2015年一季度的事了。</p>
+                <p class="one-p">　　可即便如此，LG移动部门的亏损状况在短时间内应该不会有扭亏为盈的可能。</p>
+                <p class="one-p">　　<strong>经营策略调整</strong></p>
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2956050511/0" class="content-picture"></p>
+                <p class="one-p">　　在今年1月份的CES展上，LG电子副总裁赵成进曾经谈到旗下智能手机业务的问题。他虽然没有就亏损一事发表官方声明，但明确表示公司管理层对于对现状的不满。</p>
+                <p class="one-p">
+                    　　赵成进表示，为了帮助自家智能手机业务重振旗鼓，LG不再会像往年那样按照固定的周期发布新产品。当被问到何时会发布新旗舰G7时，他这样回应道：“我们会在需要时发布新手机，而不是追随竞争对手的步伐……我们计划把保留现有机型的时间再延长一点。”</p>
+                <p class="one-p">　　但是，外界对于LG智能手机业务的发展前景并不乐观。韩国市场调研公司Mirae Asset Daewoo Securities分析师Park
+                    Won-jae预测，LG的智能手机业务在今年会继续亏损，但亏损幅度将进一步减少至1.7亿美元。</p>
+                <p class="one-p">　　由于产品发布策略的调整，LG在刚刚结束的MWC展上只推出了一款V30S
+                    ThinQ。作为去年V30的小幅升级机型，这款手机身上基本上没有任何值得一提的新内容。至于新旗舰G7，LG表示会在上半年将其正式发布。</p>
+                <p class="one-p">　　在MWC避开竞争对手对于LG而言是个明智之举，但G7这款新旗舰本身的品质如何才是更为关键的问题。</p>
+                <p class="one-p">　　<strong>忽视中国市场</strong></p>
+                <p class="one-p">
+                    　　中国手机厂商在近几年里表现十分抢眼。根据Gartner前不久公布的2017年智能手机市场销售数据，全球排名前五的厂商当中有3家都来自中国。而在中国手机市场，LG几乎已经没有了存在感。</p>
+                <p class="one-p">
+                    　　面对着来自本土厂商的激烈竞争，LG基本上已经没有了招架之力。据报道，在2016年一整年当中，LG在中国市场中只售出了16万部智能手机，和当年4.8亿部的总出货量相比几乎可以忽略不计。而在2017年，G6和V30两部旗舰手机都没有在中国正式发售。现在登陆LG官网，你所看到的只有G5和V10这些古董机型，唯一较新的V30则标注着“该型号未在中国大陆地区销售”——LG对中国市场的不重视程度由此可见一斑。</p>
+                <p class="one-p">　　在上个月初，LG北京办事处的代表向媒体确认了公司退出中国市场的消息。放弃了这样一个重要的市场，这家公司未来的业务发展就更让人担心了。</p>
+                <p class="one-p">　　<strong>技术领先但问题多多</strong></p>
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2956060444/0" class="content-picture"></p>
+                <p class="one-p">
+                    　　其实在过去这些年里，LG对于手机技术的探索一直是走在前面的。他们的G系列旗舰机几乎每一代都拥有自己的特色，比如超高屏占比和独特后置按键设计的G2，2K分辨率显示屏和激光对焦技术的G3，f/1.8超大摄像头光圈的G4，以及双摄像头和模块化设计的G5。</p>
+                <p class="one-p">
+                    　　但是，这些产品同时也存在非常明显的缺陷。G3的2K屏致使手机功耗大幅提升，续航难以让用户满意。G4在发布之后出现了烧主板问题，让用户非常恼火。G5的模块化设计虽然炫酷，但糟糕的实用性也使其成为了一个华而不实的特点。此外，LG对于Android系统的负优化也饱受用户诟病。</p>
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2956066514/0" class="content-picture"></p>
+                <p class="one-p">　　模块化的LG G5</p>
+                <p class="one-p">
+                    　　与此同时，LG在品牌形象维护和营销方面的能力非常成问题。不管是苹果、三星还是华为、小米，这些厂商都拥有一批数量庞大的忠实用户，后者不仅会在第一时间购买新产品，还会不遗余力地在网络上推荐和维护自己所支持的品牌。</p>
+                <p class="one-p">
+                    　　对于营销的淡漠致使LG的手机产品缺乏足够的曝光度，现在早就不是酒香不怕巷子深的年代了，想要让一款产品大卖，厂商就得在广告营销上面使劲砸钱。和韩国同乡三星相比，LG在这方面显然非常欠缺。</p>
+                <p class="one-p">　　<strong>G7能否力挽狂澜？</strong></p>
+                <p class="one-p"><img src="//inews.gtimg.com/newsapp_match/0/2956089157/0" class="content-picture"></p>
+                <p class="one-p">　　MWC现场展示的LG G7</p>
+                <p class="one-p">　　LG能否在今年扭转颓势，主要还得看G7的表现。这款手机虽然没有在MWC正式发布，但LG的确把它带到了展会现场。</p>
+                <p class="one-p">　　从媒体曝光的信息来看，LG
+                    G7采用了6英寸3120x1440分辨率显示屏，并且顶部是在本届MWC上烂大街的刘海设计。配置方面，这款手机采用了高通骁龙845处理器，4/6GB内存，64/128GB存储空间，1600万像素后置双摄像头，800万像素前置摄像头，3000mAh电池。</p>
+                <p class="one-p">　　如果这就是G7的最终形态，那我们可以说这款手机本身的水平和竞争对手是出在同一水平线上的，没有什么明显的短板——假设你能接受跟风意味明显的刘海屏的话。</p>
+                <p class="one-p">
+                    　　接下来我们就要看LG的营销工作了。如果LG的经营策略调整当中包含这增加产品营销投入，那G7还是有机会在市场上和竞争对手搏一搏的。不然的话，这款手机的命运和自己的前辈也不会有什么不同。</p>
+                <p class="one-p">　　<strong>总结</strong></p>
+                <p class="one-p">　　不管是巧克力（KG90）还是Nexus
+                    4，LG的经典手机产品仿佛都还历历在目。这家手机厂商会落得如今这般田地，除了市场竞争激烈的外因，自身的产品策略失误肯定也要占一部分原因。</p>
+                <p class="one-p">
+                    　　放弃中国市场，产品小毛病不断，营销能力低下，这些都是导致LG移动业务连年亏损的主要原因。痛定思痛的LG能否通过策略调整一一解决这些问题？这将是他们能否扭转颓势的关键。</p>
+                <div id="Status">
+                    <div data-reactroot="" class="article-status">
+                        <div></div>
+                        <div class="through theend"><span>the end</span></div>
+                        <div class="statement">免责声明：本文来自腾讯新闻客户端自媒体，不代表腾讯网的观点和立场。</div>
+                        <div class="like">
+                            <div class="like-a " data-bossirs="like&amp;"><i class="iconfont icon-zan"></i>
+                                <div class="text-a">赞</div>
+                            </div>
+                            <div class="share" data-bosszone="share"><a class="wxWrap"><i
+                                    class="iconfont icon-icon-"></i>
+                                <div class="qrcode hidden">
+                                    <div id="qrcode2" title="http://new.qq.com/omn/20180302/20180302A07EWJ.html">
+                                        <canvas width="113" height="113" style="display: none;"></canvas>
+                                        <img alt="Scan me!"
+                                             src="data:image/png;base64,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"
+                                             style="display: block;"></div><!-- react-text: 15 -->用微信扫描二维码
+                                    <!-- /react-text --></div>
+                            </a><a><i class="iconfont icon-qq1"></i></a><a><i
+                                    class="iconfont icon-qqkongjian"></i></a><a><i class="iconfont icon-weibo1"></i></a>
+                            </div>
+                            <div class="r"><a href="" data-bossirs="sc&amp;" style="display: none;"><i
+                                    class="iconfont icon-shoucang"></i><!-- react-text: 25 --> 收藏<!-- /react-text -->
+                            </a><!-- react-text: 26 -->&nbsp;&nbsp;&nbsp;&nbsp;<!-- /react-text --><a href=""
+                                                                                                      data-bossirs="unlike&amp;"
+                                                                                                      class=""><i
+                                    class="iconfont icon-buganxingqu1"></i><span>不感兴趣</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Comment">
+            <div data-reactroot="" class="qq_comment clearfix" data-bosszone="pl" data-bossirs="pl&amp;">
+                <iframe src="" frameborder="no" scrolling="no" id="commentIframe" class="commentIframe"
+                        title="comment"></iframe>
+            </div>
+        </div>
+        <div id="Recomend">
+            <div data-reactroot="" class="recommend"></div>
+        </div>
+    </div>
+</div>
+﻿
+<!--bt-->
+<div class="bt">
+    <div class="btwrap">
+        <p>Copyright@2016-2018 cwifi88 Corporation.All Rights Reserved.</p>
+        <p>武汉涵思涵科技有限公司 鄂ICP备16016213号</p>
+    </div>
+</div>
+<div class="clear"></div>
+<script src="http://zsnh.wfsf.cn/tpl/Static/default/classify/banner.js"></script>
+<script type="text/javascript">
+    var optJsonData = {};
+    var RequestUrl = 'http://zsnh.wfsf.cn/classify/list-253.html';
+    var optStr = window.location.search;
+    optJsonData = {
+        "input2": ["b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeaYrw==", "b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeWQpg=="],
+        "input1": ["b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWGsOeusQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Peepuuiwg+e7tOS\/ri\/np7vmnLo=", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeDreawtOWZqA==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeUteinhg==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Pea0l+iho+acug==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWOqOaIvw==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeW9semfs+WutueUtQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWwj+WutueUtQ=="]
+    };
+
+    function ProcessInquiryStr(typ, optv) {
+        var pi_Str = '';
+        if (optStr.indexOf('opt=') > -1) {
+            var tmp = optStr.split('opt=');
+            var opt_str = $.trim(tmp[1]);
+            opt_str = opt_str.replace(/&page=\d+/, '');
+            var optArr = opt_str ? opt_str.split('-') : new Array();
+            var tmpstr = '';
+            var flage = false;
+            for (i = 0; i < optArr.length; i++) {
+                $.each(optJsonData, function (kk, vv) {
+                    tmpstr = 'ff|' + vv.join('|') + '|ff';
+                    if (tmpstr.indexOf(optArr[i]) > 0) {
+                        if (kk == typ) {
+                            if (optv) {
+                                optArr[i] = optv;
+                            } else {
+                                optArr.splice(i, 1);
+                            }
+                            flage = true;
+                        }
+                    }
+
+                });
+            }
+            if (!flage && optv) {
+                optArr.push(optv);
+            }
+            if (optArr.length > 1) {
+                pi_Str = optArr.join('-');
+            } else if (optArr.length == 1) {
+                pi_Str = optArr[0];
+            } else {
+                pi_Str = '';
+            }
+        } else {
+            pi_Str = optv;
+        }
+        if (pi_Str) {
+            window.location.href = RequestUrl + '?opt=' + pi_Str;
+        } else {
+            window.location.href = RequestUrl;
+        }
+
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#keyword1").keydown(function () {
+            $("#keyword1").attr("style", "color: rgb(0, 0, 0);"); //黑色
+        });
+        $("#keyword1").click(function () {
+            if ($.trim($(this).val()) == "输入类别或关键字") {
+                $(this).val("");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+        $("#keyword1").blur(function () {
+            if ($.trim($(this).val()) == "") {
+                $(this).val("输入类别或关键字");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+    });
+
+    function ToSearchWord(ty) {
+        var keyword = $.trim($("#keyword1").val());
+        if (keyword == "" || keyword == "输入类别或关键字") {
+            $("#keyword1").val("输入类别或关键字");
+            $("#keyword1").attr("style", "color: rgb(153, 153, 153);"); //灰色
+            return false;
+        } else {
+            if (ty == 1) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist-253-0.html?keystr=" + keyword;
+            } else if (ty == 2) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist.html?keystr=" + keyword;
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>

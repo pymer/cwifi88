@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <title>家电</title>
+    <meta name="keywords" content="家电"/>
+    <meta name="description" content="家电"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/base.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/listui.css"/>
+    <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/common.css"/>
+    <script src="https://apps.bdimg.com/libs/jquery/1.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./public/css/common.css"/>
+    <style type="text/css">
+        #pageHtml {
+            font-size: 20px;
+        }
+
+        #pageHtml .current {
+            border: 1px solid #e1e1e1;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            width: 35px;
+            background-color: #06c1ae;
+            color: #fff;
+            margin: 0 1px;
+            padding: 0 0 0 1px;
+        }
+
+        #pageHtml a {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        #pageHtml .pga {
+            border: 1px solid #e1e1e1;
+            width: 35px;
+        }
+
+        .bt .btwrap {
+            width: 1200px;
+            margin: 100px auto 30px;
+            text-align: center;
+        }
+
+        .bt .btwrap p {
+            color: #606060;
+            line-height: 20px;
+            font-size: 12px;
+        }
+
+        .newslist {
+            border: none !important;
+        }
+    </style>
+</head>
+<body>
+<div id="site-mast" class="site-mast">
+    <div class="site-mast__user-nav-w">
+        <div class="site-mast__user-nav cf">
+            <ul class="basic-info">
+                <li class="user-info cf"><a rel="nofollow" class="user-info__login" href="login.html">登录</a>
+                    <a rel="nofollow" class="user-info__signup" href="zhuce.html">注册</a></li>
+                <li class="user-info cf">
+                </li>
+            </ul>
+            <ul class="site-mast__user-w">
+                <li class="user-orders"><a href="zhifu.html" rel="nofollow">免费发布信息</a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li class="dropdown dropdown--account"><a id="J-my-account-toggle" rel="nofollow"
+                                                          class="dropdown__toggle" href="login.html"> <span>个人中心</span>
+                </a></li>
+                <li class="user-info cf">
+                    <div class="span">
+                        |
+                    </div>
+                </li>
+                <li id="J-site-merchant" class="dropdown dropdown--merchant"><a
+                        class="dropdown__toggle dropdown__toggle--merchant" href="#"> <span>网站首页</span> </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="homeWrap" class="wrapper">
+    <div id="header" class="mainpage">
+        <div id="headerinside">
+            <span id="logo"> <a href="#" target="_blank"><img src="logo.png" height="40"/></a> </span>
+            <form action="javascript:;" method="get" name="mysearch">
+                <div id="searchbar">
+                    <div id="saerkey">
+                        <span><input type="text" id="keyword" name="keystr" class="keyword" value="请填写关键词进行搜索"
+                                     onblur="if(this.value=='')this.value='请填写关键词进行搜索',this.className='keyword'"
+                                     onfocus="if(this.value=='请填写关键词进行搜索')this.value='',this.className='keyword2'"/></span>
+                    </div>
+                    <div class="inputcon">
+                        <input type="submit" class="btnall" value="搜一搜" onmousemove="this.className='btnal2'"
+                               onmouseout="this.className='btnall'"/>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="search-no">
+                        <span id="hot"></span>
+                        <span class="hot2"></span>
+                    </div>
+                </div>
+            </form>
+            <a href="zhifu.html" id="fabu" rel="nofollow"><i></i>免费发布信息</a>
+        </div>
+    </div>
+    <div class="hShadow"></div>
+    <div class="navcon" id="nav">
+        <ul class="nav2">
+            <li><a href="index.html">首页</a></li>
+            <li class="on"><a href="weixiu.html">维修服务</a></li>
+            <li><a href="bianmin.html">便民服务</a></li>
+            <li><a href="zhaopin.html">招聘信息</a></li>
+            <li><a href="zufang.html">租房买房</a></li>
+            <li><a href="chongwu.html">宠物</a></li>
+            <li><a href="ershou.html">二手交易</a></li>
+            <!--<li><a href="wanshi.html">万事屋</a></li>-->
+        </ul>
+        <div id="1003" class="ad_nav"></div>
+    </div>
+</div>
+<div id="brand_list_top_banner"></div>
+<div class="tabsbar mainpage">
+    <div class="list-tabs">
+        <a title="家电" class="sel" href="javascript:;"><span><h1>家电</h1></span></a>
+    </div>
+</div>
+<!-- =S mainlist -->
+<div id="mainlist" class="clearfix pr mainpage">
+    <!-- =S infolist 左侧列表主体 -->
+    <div class="qq_article">
+        <div class="hd">
+            <h1>中国网络巨头动摇汽车产业 不合作或将被市场淘汰</h1>
+            <div class="qq_bar clearfix" bosszone="titleDown">
+                <div class="a_Info">
+                    <span class="a_catalog" bosszone="ztTopic"><a target="_blank" accesskey="5"
+                                                                  href="http://tech.qq.com/hlwxw.htm"
+                                                                  title="更多互联网相关内容列表">互联网</a></span><span
+                        class="a_source" bosszone="jgname">腾讯科技</span><span class="a_time">2018-03-19 10:21</span>
+                </div>
+                <div class="a_share" id="shareBtn">
+                    <a class="shareTitle" style="cursor: pointer;">分享<i></i></a>
+                    <div class="shareBd">
+                        <ul class="shareBtn16">
+                            <li bosszone="msQzone" class=""><a href="javascript:void(0)" class="s_qzone"
+                                                               data-node="shareQzone">QQ空间</a></li>
+                            <li bosszone="msQQ" class=""><a href="javascript:void(0)" class="s_qq" data-node="shareQQ">QQ好友</a>
+                            </li>
+                            <li bosszone="msSina"><a href="javascript:void(0)" class="s_sina"
+                                                     data-node="shareSina">新浪微博</a></li>
+                            <li bosszone="msWx" id="shareWx" class="shareWx">
+                                <a href="javascript:void(0)" class="s_wx">微信好友</a>
+                                <div class="ewmBox" id="upshareqrcode"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <span class="a_commentNum">
+    <a href="http://coral.qq.com/2500042885" id="cmtLink" bosszone="Ncomm" target="_blank"><em id="cmtNum">18</em>评论</a>
+</span>
+
+
+                <span class="a_ilike" bosszone="textFvrtop">
+    <a href="javascript:void(0)">收藏</a>
+</span><!--[if !IE]>|xGv00|9e1af0bee8cab9a1931a638641907475<![endif]-->
+                <!--[if !IE]>|xGv00|0ccf4edc685178400d15c76603f289de<![endif]-->
+            </div>
+        </div>
+        <div class="bd" accesskey="3" tabindex="-1">
+            <div id="Cnt-Main-Article-QQ" class="Cnt-Main-Article-QQ" bosszone="content"><p class="text"
+                                                                                            style="TEXT-INDENT:2em"></p>
+                <p align="center"><img src="http://inews.gtimg.com/newsapp_bt/0/3063306763/641" style="display:block;">
+                </p>
+                <p></p>
+                <p class="text" style="TEXT-INDENT:2em">腾讯科技讯
+                    据外媒报道，统治中国社交媒体、电子商务、网络搜索和移动支付的科技巨头腾讯、百度和阿里巴巴集团，如今又把目光投向汽车产业，对现有的汽车制造商构成了威胁。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    中国互联网三巨头BAT向电动车初创公司、共享汽车服务、在线零售商，以及无人驾驶汽车软件平台和在线汽车销售商投入数以亿计美元的资金。虽然美国科技公司，特别是谷歌母公司Alphabet和其旗下的无人驾驶汽车子公司Waymo也向汽车领域投入了巨额资金，但是因为外国网络公司很难在中国市场获得立足，BAT拥有着巨大的竞争优势。举例来说，中国的政策就规定非中国企业不得在中国运营无人驾驶汽车技术所需的数字地图系统。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    这也促使福特汽车、宝马、上汽集团、吉利等国内外汽车制造商纷纷与BAT建立伙伴关系。本月，在雷诺120周年庆生会上，雷诺集团和东风雷诺宣布了与阿里巴巴集团达成合作协议，共同开拓中国市场，深化合作关系以促进在中国市场的销售。雷诺集团表示，该公司的目标是在2023年让中国销售额增长五倍。该公司还表示，将在中国销售的汽车中使用阿里巴巴集团的连接软件。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    在上月吉利汽车创始人李书福宣布斥资90亿美元换取梅赛德斯-奔驰母公司戴姆勒集团9.7%股权时，他曾强调了中国互联网巨头对汽车产业构成的威胁。“21世纪的全球汽车行业面临巨大创新机遇，也面临来自非汽车行业公司的挑战，各个汽车企业单打独斗很难赢得这场战争。为了主动抓住机遇，我们必须刷新思维方式，与朋友和伙伴联合，通过协同与分享来占领技术制高点，”李书福称。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    腾讯、百度和阿里巴巴集团目前均押注汽车产业将从硬件销售转向销售服务，营收将主要来自于类似于共享无人驾驶汽车、高速移动互联网等订阅式功能。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    “腾讯、百度和阿里巴巴集团希望消费者在汽车中使用他们的在线服务。他们把汽车看作是进入各自生态圈的入口，”上海咨询公司Automobility负责人比尔-拉索（Bill
+                    Russo）说。“正因为如此，他们才积极对汽车领域进行投资。除了中国市场，这种情况在全球任何一个国家都不会出现，这也让该市场显得如此与众不同。”</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    百度首席执行官李彦宏已经把开发无人驾驶汽车列为该公司的优先发展业务。“未来上下班时，用户不需要在关注驾驶问题，”李彦宏上周在北京表示。“用户可以在路上吃火锅或是唱卡拉OK。”</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    上汽集团董事长陈虹商业承认，虽然科技巨头给汽车产业带来了威胁，但传统汽车制造商更了解司机和他们的需求。不过汽车制造商还是需要合作伙伴。上汽集团就已推出了搭载阿里巴巴集团AliOS智联系统的汽车。此外，北汽集团和广汽集团和分别携手百度和腾讯，正在开发类似的智能汽车。去年，福特汽车和宝马都宣布将推出搭载阿里巴巴集团软件的智能汽车。</p>
+                <p class="text" style="TEXT-INDENT:2em">BAT同时还慷慨的向初创公司提供资金，希望让智能汽车在今年年底时进入中国市场。阿里巴巴集团支持的初传公司小鹏汽车推出的G3
+                    SUV，就搭载了地图、音乐应用、普通话语音识别和顶部摄像头等功能和硬件。该公司创始人何小鹏表示，阿里巴巴集团和对消费者的了解，能够帮助小鹏汽车开发新车型和快速成长。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    得到百度和腾讯支持的电动车初创公司威马汽车创始人沈晖表示，在快速变化的市场中，传统汽车制造商需要BAT的战略洞察力。他认为，除非与BAT进行合作，否则传统汽车制造商很难生存下去。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    百度和腾讯同时还是电动车初创公司蔚来汽车的投资人。蔚来汽车创始人、董事长李斌表示，汽车正在变成“移动的生活空间。”乘客是互联网服务的被动受众，因此BAT对汽车领域的兴趣，是希望让汽车成为消费者在线购物、收看视频和移动电视的潜在渠道。</p>
+                <p class="text" style="TEXT-INDENT:2em">BAT三家公司均对网约车公司滴滴出行进行了投资。此外，腾讯去年还斥资17.8亿美元购买了特斯拉5%的股份。</p>
+                <p class="text" style="TEXT-INDENT:2em">
+                    目前，汽车制造商和科技巨头可以通过把汽车制造技术与软件创新结合起来而共存。“如果把这两者结合在一起，就能获得奇妙的化学反应，”阿里巴巴集团旗下的AliOS车载操作系统部门负责人胡晓明说。（编译/明轩）<a
+                        bosszone="backqqcom" href="http://www.qq.com/?pref=article" target="_blank" title="点击进入腾讯首页"
+                        id="backqqcom" style="white-space: nowrap;"><img
+                        src="//mat1.gtimg.com/pingjs/ext2020/dc/src/img/favicon.ico" width="16" height="16"><span
+                        style="padding-left: 5px; font-size: 14px;">返回腾讯网首页&gt;&gt;</span></a></p>
+            </div>
+            <span style="width:0;height:0;overflow:hidden;display:block;font:0/0 Arial">正文已结束，您可以按alt+4进行评论</span>
+        </div>
+    </div>
+</div>
+﻿
+<!--bt-->
+<div class="bt">
+    <div class="btwrap">
+        <p>Copyright@2016-2018 cwifi88 Corporation.All Rights Reserved.</p>
+        <p>武汉涵思涵科技有限公司 鄂ICP备16016213号</p>
+    </div>
+</div>
+<div class="clear"></div>
+<script src="http://zsnh.wfsf.cn/tpl/Static/default/classify/banner.js"></script>
+<script type="text/javascript">
+    var optJsonData = {};
+    var RequestUrl = 'http://zsnh.wfsf.cn/classify/list-253.html';
+    var optStr = window.location.search;
+    optJsonData = {
+        "input2": ["b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeaYrw==", "b3B0LHR5PTAsZmQ9aW5wdXQyLHZ2PeWQpg=="],
+        "input1": ["b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWGsOeusQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Peepuuiwg+e7tOS\/ri\/np7vmnLo=", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeDreawtOWZqA==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeeUteinhg==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2Pea0l+iho+acug==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWOqOaIvw==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeW9semfs+WutueUtQ==", "b3B0LHR5PTAsZmQ9aW5wdXQxLHZ2PeWwj+WutueUtQ=="]
+    };
+
+    function ProcessInquiryStr(typ, optv) {
+        var pi_Str = '';
+        if (optStr.indexOf('opt=') > -1) {
+            var tmp = optStr.split('opt=');
+            var opt_str = $.trim(tmp[1]);
+            opt_str = opt_str.replace(/&page=\d+/, '');
+            var optArr = opt_str ? opt_str.split('-') : new Array();
+            var tmpstr = '';
+            var flage = false;
+            for (i = 0; i < optArr.length; i++) {
+                $.each(optJsonData, function (kk, vv) {
+                    tmpstr = 'ff|' + vv.join('|') + '|ff';
+                    if (tmpstr.indexOf(optArr[i]) > 0) {
+                        if (kk == typ) {
+                            if (optv) {
+                                optArr[i] = optv;
+                            } else {
+                                optArr.splice(i, 1);
+                            }
+                            flage = true;
+                        }
+                    }
+
+                });
+            }
+            if (!flage && optv) {
+                optArr.push(optv);
+            }
+            if (optArr.length > 1) {
+                pi_Str = optArr.join('-');
+            } else if (optArr.length == 1) {
+                pi_Str = optArr[0];
+            } else {
+                pi_Str = '';
+            }
+        } else {
+            pi_Str = optv;
+        }
+        if (pi_Str) {
+            window.location.href = RequestUrl + '?opt=' + pi_Str;
+        } else {
+            window.location.href = RequestUrl;
+        }
+
+    }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#keyword1").keydown(function () {
+            $("#keyword1").attr("style", "color: rgb(0, 0, 0);"); //黑色
+        });
+        $("#keyword1").click(function () {
+            if ($.trim($(this).val()) == "输入类别或关键字") {
+                $(this).val("");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+        $("#keyword1").blur(function () {
+            if ($.trim($(this).val()) == "") {
+                $(this).val("输入类别或关键字");
+                $(this).attr("style", "color:rgb(153, 153, 153);"); //灰色
+            }
+        });
+    });
+
+    function ToSearchWord(ty) {
+        var keyword = $.trim($("#keyword1").val());
+        if (keyword == "" || keyword == "输入类别或关键字") {
+            $("#keyword1").val("输入类别或关键字");
+            $("#keyword1").attr("style", "color: rgb(153, 153, 153);"); //灰色
+            return false;
+        } else {
+            if (ty == 1) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist-253-0.html?keystr=" + keyword;
+            } else if (ty == 2) {
+                window.location.href = "http://zsnh.wfsf.cn/classify/searchlist.html?keystr=" + keyword;
+            }
+        }
+        return true;
+    }
+</script>
+</body>
+</html>
