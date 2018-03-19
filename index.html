@@ -10,8 +10,33 @@
   <link rel="stylesheet" type="text/css" href="http://zsnh.wfsf.cn/tpl/Static/default/classify/topbar.css" />
   <style type="text/css">
   	.bt .btwrap{width:1200px;margin:100px auto 30px;text-align:center;}
-.bt .btwrap p{color:#606060;line-height:20px;font-size:12px;}
-.newslist{border:none !important;}
+	.bt .btwrap p{color:#606060;line-height:20px;font-size:12px;}
+	.newslist{border:none !important;}
+	#b04 {width: 640px;}
+	#b04 .dots {position: absolute;left: 0;right: 0;bottom: 20px;}
+	#b04 .dots li {display: inline-block;width: 10px;height: 10px;margin: 0 4px;text-indent: -999em;border: 2px solid #fff;border-radius: 6px;cursor: pointer;opacity: .4;-webkit-transition: background .5s, opacity .5s;-moz-transition: background .5s, opacity .5s;transition: background .5s, opacity .5s;}
+	#b04 .dots li.active {background: #fff;opacity: 1;}
+	#b04 .arrow {position: absolute;top: 200px;}
+	#b04 #al {left: 15px;}
+	#b04 #ar {right: 15px;}
+
+	ul, ol {
+		padding: 0;
+	}
+
+	.banner {
+		position: relative;
+		overflow: auto;
+		text-align: center;
+	}
+
+	.banner li {
+		list-style: none;
+	}
+
+	.banner ul li {
+		float: left;
+	}
   </style>
  </head>
  <body class="newcrop">
@@ -82,7 +107,21 @@
      <!--<a href="/index.php?g=Release&c=Classify&a=myCenter" id="delinfo" rel="nofollow" class="search-no">个人中心</a>--->
     </div>
    </div>
-   <div class="hShadow"></div>
+   <div class="" style="width: 1200px;margin: 0 auto;position: relative">
+	   <div class="banner" id="b04">
+		   <ul>
+			   <li><img src="public/home/01.jpg" alt="" width="1200" height="480"></li>
+			   <li><img src="public/home/02.jpg" alt="" width="1200" height="480"></li>
+			   <li><img src="public/home/03.jpg" alt="" width="1200" height="480"></li>
+			   <li><img src="public/home/04.jpg" alt="" width="1200" height="480"></li>
+			   <li><img src="public/home/05.jpg" alt="" width="1200" height="480"></li>
+		   </ul>
+		   <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="public/home/arrowl.png"
+																			alt="prev" width="20" height="35"></a>
+		   <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="public/home/arrowr.png"
+																			alt="next" width="20" height="37"></a>
+	   </div>
+   </div>
    <div class="navcon" id="nav">
     <ul class="nav2">
      <li class="on"><a href="index.html">首页</a></li>
@@ -195,12 +234,26 @@
 		</div>
   <div class="clear"></div>
  </body>
-<script  src="http://zsnh.wfsf.cn/tpl/Static/default/classify/banner.js"></script>
+ <script  src="http://zsnh.wfsf.cn/tpl/Static/default/classify/banner.js"></script>
+ <script src="public/js/jquery-1.11.1.min.js"></script>
+ <script src="public/js/unslider.min.js"></script>
  <script type="text/javascript">
  var mainDivH=$('#all_listC').height();
  $('#all_listC .warp').height(mainDivH);
  $('#Blocklist').height(mainDivH);
  $('#BlockLeft').height(mainDivH);
  $('#BlockCenter').height(mainDivH);
+ </script>
+ <script>
+     $(document).ready(function (e) {
+         var unslider04 = $('#b04').unslider({
+                 dots: true
+             }),
+             data04 = unslider04.data('unslider');
+         $('.unslider-arrow04').click(function () {
+             var fn = this.className.split(' ')[1];
+             data04[fn]();
+         });
+     });
  </script>
 </html>
